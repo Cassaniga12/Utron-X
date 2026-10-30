@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utron X - Chatbot de Piadas</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Cabeçalho do Chatbot -->
+        <header class="chat-header">
+            <div class="bot-avatar">🤖</div>
+            <div class="bot-info">
+                <h2>Utron X</h2>
+                <span class="status">● Online | O Robô do Riso</span>
+            </div>
+        </header>
+
+        <!-- Histórico de Mensagens -->
+        <div class="chat-messages" id="chatBox">
+            <div class="message bot">
+                <div class="bubble">
+                    Olá! Eu sou o <strong>Utron X</strong>. Me peça uma piada sobre <em>tecnologia</em>, <em>animais</em>, <em>escola</em> ou qualquer outro assunto!
+                </div>
+            </div>
+        </div>
+
+        <!-- Campo de Entrada -->
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Peça uma piada (ex: me conte uma piada de tecnologia)..." autocomplete="off">
+            <button id="sendBtn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
